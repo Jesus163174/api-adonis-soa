@@ -14,7 +14,7 @@ class SaleSchema extends Schema {
             table.float('total')
             table.date('date');
             table.enum('paymenth_method',['tarjeta','efectivo'])
-            table.strin('status').default('pagado')
+            table.string('status').default('pagado')
             table.timestamps()
         })
     }
