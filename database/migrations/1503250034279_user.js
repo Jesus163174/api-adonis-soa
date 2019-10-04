@@ -12,7 +12,7 @@ class UserSchema extends Schema {
       table.string('password', 60).notNullable()
       table.string('rol')
       table.string('avatar')
-      table.strinG('status').default('activo')
+      table.string('status').default('activo')
       table.timestamps()
     })
   }
